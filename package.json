@@ -19,6 +19,7 @@
     "es6-promise": "^3.1.2",
     "html-webpack-plugin": "^2.15.0",
     "immutable": "^3.7.6",
+    "jsonp": "^0.2.0",
     "lodash": "^3.10.1",
     "morgan": "^1.7.0",
     "react": "^0.14.8",
