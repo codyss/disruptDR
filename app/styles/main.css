@@ -5,7 +5,23 @@ body {
 
 /*Header */
 
+.header {
+  height: 50px;
+  background-color: #5d3395;
+  font-size: 150%;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  display: block;
+}
 
+/*Sidebar*/
+
+.sidebar {
+  width: 225px;
+  height: calc(100vh - (70px));
+  background-color: #e6bf03;
+}
 
 /*Map*/
 

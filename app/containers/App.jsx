@@ -1,5 +1,7 @@
 import React from 'react';
 import MainView from '../components/MainView.jsx';
+import Header from '../components/header/Header.jsx';
+import SideBar from '../components/sidebar/SideBar.jsx'
 import { connect } from 'react-redux';
 import * as Actions from '../actions';
 import request from 'axios'
@@ -21,7 +23,9 @@ class App extends React.Component {
   render() {
     return (
       <MainView>
-        Hello
+        <Header />
+        <SideBar />
+
 
       </MainView>
     );
