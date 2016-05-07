@@ -23,5 +23,5 @@ export default class MapContainer extends React.Component {
 }
 
 MapContainer.propTypes = {
-  
+
 };
