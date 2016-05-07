@@ -18,11 +18,10 @@ class App extends React.Component {
     this.props.dispatch(Actions.getPlayers())
   }
 
-
   render() {
     return (
       <MainView>
-
+        Hello
 
       </MainView>
     );
