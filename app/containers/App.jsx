@@ -18,7 +18,7 @@ class App extends React.Component {
 
   componentDidMount() {
     // this.props.dispatch(Actions.getDraftKings())
-    this.props.dispatch(Actions.getPlayers())
+    this.props.dispatch(Actions.nbaApi())
   }
 
   render() {

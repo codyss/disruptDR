@@ -1,20 +1,15 @@
 import request from 'axios';
 import * as types from '../constants/index';
+import jsonp from 'jsonp';
 
-// export function saveMap(map) {
-//   return {
-//     type: types.SAVE_MAP,
-//     map
-//   }
-// }
-//
-// export function addMarker(id, marker) {
-//   return {
-//     type: types.ADD_MARKER,
-//     id,
-//     marker
-//   }
-// }
+let url = 'http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2015-16&SeasonSegment=&SeasonType=Playoffs&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=';
+
+export function nbaApi() {
+  return (dispatch) => {
+    jsonp(url,null,(err,res) => console.log(res))
+  }
+}
+
 
 export function getDraftKings() {
   return (dispatch) => {
