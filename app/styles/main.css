@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0px;
@@ -21,7 +23,19 @@ body {
   width: 225px;
   height: calc(100vh - (70px));
   background-color: #e6bf03;
+  display: inline-block;
 }
+
+/*Chart*/
+
+.chart {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left:225px;
+}
+
+
 
 /*Map*/
 

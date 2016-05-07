@@ -1,7 +1,8 @@
 import React from 'react';
 import MainView from '../components/MainView.jsx';
 import Header from '../components/header/Header.jsx';
-import SideBar from '../components/sidebar/SideBar.jsx'
+import SideBar from '../components/sidebar/SideBar.jsx';
+import Chart from '../components/chart/Chart.jsx';
 import { connect } from 'react-redux';
 import * as Actions from '../actions';
 import request from 'axios'
@@ -25,8 +26,7 @@ class App extends React.Component {
       <MainView>
         <Header />
         <SideBar />
-
-
+        <Chart />
       </MainView>
     );
   }
